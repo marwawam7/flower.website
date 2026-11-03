@@ -3,7 +3,6 @@
 🎓 **Media Engineering Student (3rd Semester)**  
 💻 Passionate about the intersection of **Web Development, UI/UX Design, and Interactive Media**.
 
----
 
 ## 🚀 About Me
 I am currently studying **Media Engineering** in my 3rd semester. My focus is on combining clean, functional code with intuitive user experiences.
