@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florå Adorå | Fairy Tale Florals</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="glass-nav">
+        <div class="logo fairy-text">Florå Adorå</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="gallery.html" target="_blank">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-parallax">
+        <div class="hero-content-left">
+            <h1 class="fairy-title">Florå Adorå</h1>
+            <p class="description">Flowers for everyone to ådor</p>
+            <a href="#contact" class="btn-aesthetic">Request a Bouquet</a>
+        </div>
+    </section>
+    
+    <section class="comment-section">
+        <div class="comment">
+            <p>"Konnte den perfekten Strauß für meine Frau finden."</p>
+            <span>- Noah Z.</span>
+        </div>
+        <div class="comment">
+            <p>"Die Ästhetik der Sträuße ist unvergleichlich."</p>
+            <span>- Mina P.</span>
+        </div>
+    </section>
+
+    <section class="bouquet-reveal">
+        <div class="bouquet-content">
+            <div class="text-side">
+                <h2>Our Vision</h2>
+                <p>Whether it's a wedding, birthday or any other holiday, we help you create an atmosphere of beauty.</p>
+            </div>
+            <div class="image-side">
+                <div class="bouquet-img-box"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="luxury-contact">
+        <div class="contact-card">
+            <h2>Contacts</h2>
+            <form action="https://zuse1.efi.ohmportal.de:8443/json" method="post">
+                <input type="text" placeholder="Your Name" name="name">
+                <input type="email" placeholder="Your Email" name="email">
+                <textarea placeholder="Tell us about your event..."></textarea>
+                <button type="submit">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="faq-section">
+        <h2 class="fairy-text">Blumige Fragen und Antworten</h2>
+        <div id="faq-container"></div>
+        
+        <div class="faq-form-container" style="margin-top: 40px; padding: 20px; border-top: 1px dashed var(--amaranth, #ccc);">
+            <h4>Neue Frage hinzufügen </h4>
+            
+            <form id="new-faq-form">
+                <div style="margin-bottom: 15px;">
+                    <input type="text" id="input-question" placeholder="Deine Frage (z.B. Wie pflege ich Rosen?)" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <textarea id="input-answer" placeholder="Die Antwort darauf..." required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; min-height: 80px;"></textarea>
+                </div>
+                <button type="submit" class="btn-aesthetic" style="border: none; cursor: pointer;">Frage speichern</button>
+            </form>
+        </div>
+    </div> <script src="script.js"></script>
+</body>
+</html>
